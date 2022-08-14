@@ -3,13 +3,13 @@
 }
 
 body {
-  padding-top: 4rem;
   margin: 0;
   padding: 0;
   color: #333;
   --type-first: Helvetica, Arial, sans-serif;
   --type-second: "Spectral", Georgia;
   font-family: var(--type-first);
+  padding-top: 4rem;
 }
 
 h1,
