@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import styled from "./header.module.css";
 
 import { ReactComponent as Dogs } from "../Assets/dogs.svg";
 
-const Header = (props) => {
+const Header = () => {
   return (
     <header className={styled.header}>
       <nav className={`${styled.nav} container`}>
