@@ -13,11 +13,11 @@
   transition: 0.2s;
 }
 
-.input:hover,
-.input:focus {
+.input:focus,
+.input:hover {
   outline: none;
   border-color: #fb1;
-  background-color: #fff;
+  background: white;
   box-shadow: 0 0 0 3px #fea;
 }
 
@@ -28,8 +28,8 @@
   padding-bottom: 0.5rem;
 }
 
-.erro {
+.error {
   color: #f31;
   font-size: 0.875rem;
-  margin-top: .25rem;
+  margin-top: 0.25rem;
 }

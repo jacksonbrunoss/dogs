@@ -1,8 +1,7 @@
-import React from "react";
-import styled from "./home.module.css";
+import React from 'react';
 
-const Home = (props) => {
-  return <main>Esse é o Conteudo</main>;
+const Home = () => {
+  return <div>Home</div>;
 };
 
 export default Home;

@@ -1,9 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import styled from "./login.module.css";
+import React from 'react';
 
-const LoginPasswordReset = (props) => {
-  return <main className={styled.login}>LoginPasswordReset</main>;
+const LoginPasswordReset = () => {
+  return <div></div>;
 };
 
 export default LoginPasswordReset;
